@@ -5,6 +5,12 @@ I've been using a Bravo Audio V2 headphone amplifier for probably ten years now.
 
 This is a replica of how my own amplifier is currently working. This V1 is to confirm I can actually build the thing and have something that works. It is as yet untested in this state. I've designed it to use the power supply from my existing unit. The modifications made to this are: better quality output MOSFETs, better quality current regulators, a better choice of input capacitor value, removal of useless bridge between valve heaters, larger regulator heatsink and removal of parts I never use.
 
+![PCB Layout](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/442c8ae4-3163-4cae-ba05-6dbca7153db5)
+![Bravo Amp Rep Top](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/6f89fcc5-553e-4451-b195-fe95759cb3d2)
+![Bravo Amp Rep Bottom](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/eceb9893-a6e5-479f-bf10-6b5299db69b0)
+![Bravo Amp Rep Angle2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/711ed6f2-f39f-495b-8bcb-1b95dfd24dcc)
+
+
 General Information on the original amplifer:
 
 TO BE FILLED
