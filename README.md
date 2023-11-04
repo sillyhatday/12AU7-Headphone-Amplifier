@@ -15,6 +15,10 @@ General Information on the original amplifer:
 
 TO BE FILLED
 
+Bill of Materials:
+
+TO BE FILLED
+
 Future revisions:
 
 Once proven to be a working amplifer, I would like to make many more serious modifications. The best way is to do them one at a time to allow easier troubleshooting if required.
