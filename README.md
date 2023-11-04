@@ -21,7 +21,7 @@ So why not carry on the legacy of an absolute entry level vacuum tube headphone 
 
 I hope that anyone who wants to experiment with vacuum tubes can find some enjoyment from this project. It doesn't have to be an expensive hobby. It should be something that is fun and within your budget. If you can't afford the best stuff out there, then don't worry, there are a lot of cheap options out there like this little amplifier that could.
 
-![Bravo-Audio-V2-Class-A-12AU7-Tube-Multi-Hybrid-Headphone-Amplifier-Listen-to-Better-Music-2219735662](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d56bbc29-1be8-4888-8aa8-bb3d38eef209)
+![Bravo-Audio-V2-Class-A-12AU7-Tube-Multi-Hybrid-Headphone-Amplifier-Listen-to-Better-Music-2219735662](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/a616416b-b9f8-4374-bb6d-3059405e4e6e)
 
 
 Bill of Materials:
