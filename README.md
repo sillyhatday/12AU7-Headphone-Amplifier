@@ -18,9 +18,9 @@ TO BE FILLED
 Bill of Materials:
 | Part | Quantity |
 |---|---|
-| Aliexpress DC barrel Jack | 1 |
+| DC Jack DCJ200-10-A-K1-K | 1 |
 | Aliexpress Heatsinks 25x23x16 | 4 |
-| Aliexpress RCA Jacks | 2 |
+| RCA Jack 36-901-ND | 2 |
 | Aliexpress Valve Socket | 1 |
 | Neutrik 1/4" PCB Jack NMJ6HFD2 | 1 |
 | IRL530 Mosfet | 2 |
