@@ -44,7 +44,9 @@ Future revisions:
 
 Once proven to be a working amplifer, I would like to make many more serious modifications. The best way is to do them one at a time to allow easier troubleshooting if required.
 
-First major modification I would like to do is remove the valveeaters from the audio signal path. This helps with sound quality as it causes crosstalk between channels. This will require much larger heat sinks for the current regulators as they will have to deal with an extra 6.3v.
+Add some power filtering such as a choke or some inductor. I need to learn more about the effects of this, what is best and how to calculate it.
+
+First major modification I would like to do is remove the valve heaters from the audio signal path. This helps with sound quality as it causes crosstalk between channels. This will require much larger heat sinks for the current regulators as they will have to deal with an extra 6.3v. Along with a seperate 6.3v power supply for the heaters wither on the bard regulating 24v down to 6.3v or completely seperate.
 
 In general I would like to use bigger heatsinks on everything to keep things much cooler. The standard heatsinks are a burn hazard. They run very hot. This has not proven to be an issue with reliability.
 
