@@ -13,7 +13,16 @@ This is a replica of how my own amplifier is currently working. This V1 is to co
 
 General Information on the original amplifier:
 
-TO BE FILLED
+The whole base of this project was this little amplifier that could. It seemed more of a curiosity or a gateway to higher level vacuum tube amplifiers, from around 2013 onwards. I found it fastinating. Working from memory, this small curiosity actually seemed to get some praise. There was a lot of cheap Chinese valve amplifiers on sale at this time and it seemed like a lot of them were complete trash or didn't even use the vacuum tube. This was the cheapest vacuum tube headphone amp around at the time. I don't know if there is a replacement for this by someone else these days; I feel that it's legacy should live on.
+
+Many of the more invested audio geeks will say it sound bad. That is unfair. It does not sound bad at all, in fact it sound good. I think everyone has heard bad sounding audio equipment, they know how bad it sounds. The threshhold of sounding good, doesn't change based on how much better higher level equipment sounds. Justification for your high level spending changes the threshold of good sounding. There are better things out there of course. At the time this thing with some small modifications could compete with amplifiers and 4 times the price (based on what I've read).
+
+So why not carry on the legacy of an absolute entry level vacuum tube headphone amplifier. Even with the cost of high quality components, the cost of this isn't far beyond the price of these things originaly. I think they were around £60 at the cheapest. With all parts needed and the PCB it isn't far off. The price of a decent vacuum tube will throw the budget out the window. You could use a 12AU7/ECC83 or a 5963 vacuum tube. Some of the cheapest vacuum tubes at the time offered some great sound. The included Chinese vacuum tube wasn't great honestly. Changing the included vacuum tube is the best improvement you can make, followed by ever deminishing returns. The idea of the best soudning valve is a whole other story and therfore up to you to decide what is best, but don't discount the cheap ones, you can find something that sounds good to you. Different genres of music match other tubes better. Over the years I settled on a Brimar 12AU7 that was brand new from someone I knew.
+
+I hope that anyone who wants to experiment with vacuum tubes can find some enjoyment from this project. It doesn't have to be an expensive hobby. It should be something that is fun and within your budget. If you can't afford the best stuff out there, then don't worry, there are a lot of cheap options out there like this little amplifier that could.
+
+![Bravo-Audio-V2-Class-A-12AU7-Tube-Multi-Hybrid-Headphone-Amplifier-Listen-to-Better-Music-2219735662](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d56bbc29-1be8-4888-8aa8-bb3d38eef209)
+
 
 Bill of Materials:
 | Part | Quantity |
