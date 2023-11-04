@@ -1,11 +1,11 @@
 # 12AU7-Headphone-Amplifier
 Headphone amplifier with 12AU7 preamp section. Based from the Bravo Audio V2 amplifier.
 
-I've been using a Bravo Audio V2 headphone amplifier for probably ten years now. The build quality is bad and it's a miricle that it has lasted just this long. It's had muliple reapirs, modifications and heavy use for the whole time. I went to find a new one and they have since disapeared from the internet. Well, perfect excuse to build a replica where cost is not an issue.
+I've been using a Bravo Audio V2 headphone amplifier for probably ten years now. The build quality is bad and it's a miricle that it has lasted just this long. It's had multiple reapirs, modifications and heavy use for the whole time. I went to find a new one and they have since disapeared from the internet. Well, perfect excuse to build a replica where cost is not an issue.
 
 This is a replica of how my own amplifier is currently working. This V1 is to confirm I can actually build the thing and have something that works. It is as yet untested in this state. I've designed it to use the power supply from my existing unit. The modifications made to this are: better quality output MOSFETs, better quality current regulators, a better choice of input capacitor value, removal of useless bridge between valve heaters, larger regulator heatsink and removal of parts I never use.
 
-![PCB Layout](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/442c8ae4-3163-4cae-ba05-6dbca7153db5)
+![PCB Layout](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d4de6558-2ef3-41cd-b668-5a8d6f326350)
 ![Bravo Amp Rep Top](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d68e6092-f0fb-495e-a719-ad50b6a6dc84)
 ![Bravo Amp Rep Bottom](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/eceb9893-a6e5-479f-bf10-6b5299db69b0)
 ![Bravo Amp Rep Angle2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/711ed6f2-f39f-495b-8bcb-1b95dfd24dcc)
