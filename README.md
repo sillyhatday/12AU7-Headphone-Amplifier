@@ -16,8 +16,29 @@ General Information on the original amplifer:
 TO BE FILLED
 
 Bill of Materials:
-
-TO BE FILLED
+| Part | Quantity |
+|---|---|
+| Aliexpress DC barrel Jack | 1 |
+| Aliexpress Heatsinks 25x23x16 | 4 |
+| Aliexpress RCA Jacks | 2 |
+| Aliexpress Valve Socket | 1 |
+| Neutrik 1/4" PCB Jack NMJ6HFD2 | 1 |
+| IRL530 Mosfet | 2 |
+| LM317A | 2 |
+| 12AU7/ECC83 | 1 |
+| RED Strawhat LED | 1 |
+| Pot ALPS RK097 10K | 1 |
+| 2N3906 PNP Transistor | 2 |
+| Resistor 47K | 2 |
+| Resistor 24K | 2 |
+| Resistor 10K | 1 |
+| Resistor 3K | 4 |
+| Resistor 220R | 2 |
+| Resistor 7R5 | 2 |
+| Capacitor 6800uF | 1 |
+| Capacitor 1000uF | 2 |
+| Capacitor 2.2uF | 2 |
+| Capacitor 100nF | 2 |
 
 Future revisions:
 
