@@ -12,7 +12,7 @@ V1 does and doesn't work. With some botches it is now working perfectly. Version
 ![Bravo Amp Rep v1 1 Side](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/9ac70814-9cf6-47dc-9441-31c1e5d31118)
 ![Bravo Amp Rep v1 1 Bottom](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/be04ed41-a0ae-4df6-b739-d70567e6b3e2)
 
-General Information on the original amplifier:
+# General Information on the original amplifier:
 
 The whole base of this project was this little amplifier that could. It seemed more of a curiosity or a gateway to higher level vacuum tube amplifiers, from around 2013 onwards. I found it fastinating. Working from memory, this small curiosity actually seemed to get some praise. There was a lot of cheap Chinese valve amplifiers on sale at this time and it seemed like a lot of them were complete trash or didn't even use the vacuum tube. This was the cheapest vacuum tube headphone amp around at the time. I don't know if there is a replacement for this by someone else these days; I feel that it's legacy should live on.
 
