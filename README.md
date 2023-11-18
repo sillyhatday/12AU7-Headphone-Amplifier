@@ -3,13 +3,14 @@ Headphone amplifier with 12AU7 preamp section. Based from the Bravo Audio V2 amp
 
 I've been using a Bravo Audio V2 headphone amplifier for probably ten years now. The build quality is bad and it's a miracle that it has lasted just this long. It's had multiple repairs, modifications and heavy use for the whole time. I went to find a new one and they have since disappeared from the internet. Well, perfect excuse to build a replica where cost is not an issue.
 
-This is a replica of how my own amplifier is currently working. This V1 is to confirm I can actually build the thing and have something that works. It is as yet untested in this state. I've designed it to use the power supply from my existing unit. The modifications made to this are: better quality output MOSFETs, better quality current regulators, a better choice of input capacitor value, removal of useless bridge between valve heaters, larger regulator heatsink and removal of parts I never use.
+This is a replica of how my own amplifier is currently working. I've designed it to use the power supply from my existing unit. The modifications made to this are: better quality output MOSFETs, better quality current regulators, a better choice of input capacitor value, removal of useless bridge between valve heaters, larger regulator heatsink and removal of parts I never use.
 
-![PCB Layout](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d4de6558-2ef3-41cd-b668-5a8d6f326350)
-![Bravo Amp Rep Top](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/d68e6092-f0fb-495e-a719-ad50b6a6dc84)
-![Bravo Amp Rep Bottom](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/eceb9893-a6e5-479f-bf10-6b5299db69b0)
-![Bravo Amp Rep Angle2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/711ed6f2-f39f-495b-8bcb-1b95dfd24dcc)
+V1 does and doesn't work. With some botches it is now working perfectly. Version 1.1 has the fixes implemented but as of yet untested. I'm 99% confident that it will work just fine. Once tested the larger modifications can begin.
 
+![PCB Layout v1 1](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/b41db5b3-629a-45f1-8f79-8e981fe3eb18)
+![Bravo Amp Rep v1 1 Top](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/22b59281-f3dc-42ca-b077-14d0e93d9ca6)
+![Bravo Amp Rep v1 1 Side](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/9ac70814-9cf6-47dc-9441-31c1e5d31118)
+![Bravo Amp Rep v1 1 Bottom](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/be04ed41-a0ae-4df6-b739-d70567e6b3e2)
 
 General Information on the original amplifier:
 
@@ -44,12 +45,32 @@ Bill of Materials:
 | Resistor 3K | 4 |
 | Resistor 220R | 2 |
 | Resistor 7R5 | 2 |
-| Capacitor 6800uF | 1 |
-| Capacitor 1000uF | 2 |
-| Capacitor 2.2uF | 2 |
+| Capacitor 6800uF 35v | 1 |
+| Capacitor 1000uF 35v | 2 |
+| Capacitor 2.2uF 50v | 2 |
 | Capacitor 100nF | 2 |
 
+Changelog:
+
+Changes from version 1 to version 1.1 are as follows:
+
+Capacitor silk screen orientation corrected. Used wrong symbols in the schematic and it caused the footprint to be totally random.
+
+Volume potentiometer wired weird. I could have caught this but I didn't. Schematic symbol not very clear honestly.
+
+Volume potentiometer position moved slightly.
+
+TO220 packages moved slightly closer to heatsinks.
+
+Headphone output footprint backwards. Impossible to know without having the component to look at and reference to the footprint.
+
+Swapped the left and right input caps to actually be on the left and right. Why I crossed them over I don't know. Makes no difference, I just like to have left on the left and rightr on the right.
+
+Added L and R to input jack footprint. If not using colour coded jacks you can tell the difference. If using colour coded jacks you can see which to put where.
+
 Future revisions:
+
+USB-C power supply. It can be done. How complex it may be, I do not know. This needs 24v and max USB-C power is 20v? I'm not sure, but it would be a very nice additon. A nice linear regulated power supply would be best, but this is a cheap fun toy.
 
 Once proven to be a working amplifier, I would like to make many more serious modifications. The best way is to do them one at a time to allow easier troubleshooting if required.
 
