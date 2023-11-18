@@ -25,7 +25,7 @@ I hope that anyone who wants to experiment with vacuum tubes can find some enjoy
 ![Bravo-Audio-V2-Class-A-12AU7-Tube-Multi-Hybrid-Headphone-Amplifier-Listen-to-Better-Music-2219735662](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/a616416b-b9f8-4374-bb6d-3059405e4e6e)
 
 
-Bill of Materials:
+# Bill of Materials:
 | Part | Quantity |
 |---|---|
 | DC Jack DCJ200-10-A-K1-K | 1 |
@@ -50,7 +50,7 @@ Bill of Materials:
 | Capacitor 2.2uF 50v | 2 |
 | Capacitor 100nF | 2 |
 
-Changelog:
+# Changelog:
 
 Changes from version 1 to version 1.1 are as follows:
 
@@ -68,7 +68,7 @@ Swapped the left and right input caps to actually be on the left and right. Why 
 
 Added L and R to input jack footprint. If not using colour coded jacks you can tell the difference. If using colour coded jacks you can see which to put where.
 
-Future revisions:
+# Future revisions:
 
 USB-C power supply. It can be done. How complex it may be, I do not know. This needs 24v and max USB-C power is 20v? I'm not sure, but it would be a very nice additon. A nice linear regulated power supply would be best, but this is a cheap fun toy.
 
