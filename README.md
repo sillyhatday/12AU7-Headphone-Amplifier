@@ -7,7 +7,7 @@ I've been using a Bravo Audio V2 headphone amplifier on and off for probably ten
 
 I've designed it to use the power supply from my existing unit. The modifications made to this are: better quality output MOSFETs, better quality current regulators, a better choice of input capacitor value, better choice of input capacitor type, removal of useless bridge between valve heaters, larger regulator heatsink, adjustable anode bias and removal of the awful blue LED.
 
-![Bravo Amp Rep V1 2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/22927d88-aa79-46bf-930b-2e51ac602e05)
+![Bravo Amp Rep V1 2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/0c12abed-224b-4746-88f3-91b910cedec0)
 ![WhatsApp Image 2023-11-28 at 17 54 07_dc16360e](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/ac1c4b83-45c0-4f2f-81c2-c8712ad9e2e9)
 
 # General Information on the original amplifier:
