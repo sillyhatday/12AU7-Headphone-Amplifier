@@ -51,30 +51,46 @@ I hope that anyone who wants to experiment with vacuum tubes can find some enjoy
 | Electrolytic Capacitor 2200uF 35v | 2 |
 | Film Capacitor 2.2uF 50v | 2 |
 | Ceramic Capacitor 100nF | 2 |
-Insert footprint description here
+
+![Footprint notes](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/7611e690-aa84-47bd-85c4-8689cdeca6ff)
+
 Notes:
+
 You can choose freely as to which MOSFET to use in the amplifier. The best ones are the IRL series. I think the IRF should still sound very good indeed. Avoid the IRF630 unless you like a slow filtered roll off above 10kHz. The input capacitance is brutal. You might like that sound and it is the cheapest one so feel free to experiment.
 Valve choice is really what this is all about. There are huge differences in sound between them. Some more than others. Then you also have other ranges of valve that are similar to the 12AU7. I have only tested the 5963 but here are some other types that should work too: 6189, 5963, 12AX7, 12AT7, 5814 and more when I find my notes.
-# Information on the design
+
+# Information on the design:
+
 Bias control resistors:
+
 A major flaw in the original design of this amp was the poorly calculated (or not calculated) bias for the 12AU7 anode. I have not done any measurements on the original amplifier, but I took measurements on the prototype of this newly built amplifier using the same value parts as the original. The 12AU7 needs a constant current following through the anode. The small PNP transistors are setup as a constant current source for this purpose. The current flow being used is only a few hundred uA. I’ve not looked into the optimal current to use yet for a 12AU7 but as the whole thing is being run from 24v the tube is working well outside it’s optimal setting to begin with.
 The constant current flowing through the valve is affected by the signal input to the grid. The changing voltage on the grid tries its best to change the current flowing through the 12AU7. The constant current source fights back and adjust the voltage on the anode to keep the current constant. This changing voltage on the anode is fed into the MOSFET stage.
+
 To properly set the bias without a target number, you just need to play it by ear, literally. Just go with what setting sounds best to you, while keeping the anode current as low as possible as this will increase the idle current through the MOSFET stage, creating more heat. The heatsink size is already at its limit for the MOSFETs. If higher anode current is needed, I suggest using larger heatsinks on the MOSFETs. These cheap heatsinks should be able to stack. Put a small film of thermal paste on the top of the heatsink and force the pins on the bottom of another into the channels on the top of the first. Alternatively, there are some slightly taller versions.
 The actual setting of the bias, in reality, is not so easy to set by measuring current. Due to ohms law though we know current can be changed by changing resistance or voltage. With the amplifier in a steady idle state, measure the voltage on the test points TP1 to TP3 and TP2 to TP3. The voltage will vary depending on the 12AU7 being used. I find most of them to be similar. The factory values for the bias had the anode below 10v, which does work, but an extra volt on every valve I tried makes a huge difference in sound quality. I’ve found 10.5 to 10.8v on all the valves I tried to be the minimum voltage before loosing sound quality. Anything higher just seems to be wasted energy and extra heat.
 The range of settings available are larger enough to be more than needed without causing damage to anything if used only for a short period. I can’t guarantee that the highest current setting will not boil your 12AU7 and output MOSFETs.
+
 Output impedance:
+
 I’ve played around with this setting by experimenting blind and it also makes a big difference. The simple answer is to make it as low as possible and forget about it.
 There are plenty of information sources about amplifier output impedance, so I’ll not repeat in here. Basically the lower the better. High output impedance changes your headphones character, usually for the worse. I left the resistor in place to add some output impedance in case someone wanted to play around and adjust it to purposely change the headphones character.
 The original design had a 47R resistor in place, which makes zero sense. Any headphones with a 32ohm impedance sound like trash. You need at least 376ohm headphones to get to the sweet spot. The only reason I see for the high output impedance is that this amplifier design is trash. With a low value resistor and sensitive headphones the background hiss is unbearable in an idle state. I think it was done to hide the background hiss as best as they could.
 Experiment and find out what sounds best to you.
+
 Input capacitors:
+
 The original design once more used less than ideal components. The choice of 1uf was decent enough but caused a bass roll off in the sub bass region and as the higher bass frequencies are in the space where this filtering effect happens, it causes phasing issues with those frequencies. Once more affecting the sound quality. Changing to 2.2uf moves the filter even lower and well out of the way. They are not needed at all if your source connected to the input has no DC bias on it. Any of that will affect the sound quality and/or throw the tube into a run away.
 The other issue is the type of capacitor used. The original used electrolytic type. The problem with this is the input has no DC bias on either side of it. So with AC source input you are running the capacitor into reverse bias. It’s well within the tolerance limits but it still uses the capacitor in a non optimal way. So 2.2uf film capacitors are used instead. The bass should be cleaner and possibly sound better over all using a more suitable capacitor type.
+
 # Final thoughts:
+
 I made a list at the start of this project of my thoughts about future improvements. I don’t think it is really worth adding so many large changes into this design. It sounds pretty good as it stands now.
+
 To continue changing this design is missing the point of it. It was to create a cheap vacuum tube amplifier from an existing flawed design to have fun with. No amount of tweaking forever will improve things much more (With one exception) than this. It’s worth putting the time into a fresh new design, based on knowledge gained from this project. I did my best to reverse engineer this to learn. Nothing I’ve done was without knowing how it works.
+
 To the one exception is the removal of the valve heaters from the current path of the MOSFETs. That is still worth doing. It will require a board redesign for extra components and the huge heatsinks it will require on the LM317s. I’ll make that a separate project and call it the plus version of this or something.
 After that I feel like starting something else like this completely from scratch. That will take some time.
+
 I think I have accomplished what I set out to do. I had fun and created something usable. As a bonus it also sounds better than I thought it ever would. Happy listening.
 
 # Changelog:
