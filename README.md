@@ -95,16 +95,23 @@ I think I have accomplished what I set out to do. I had fun and created somethin
 
 # Changelog:
 
-Changes from version 1.1 to version 1.2 are as follows:
+*Changes from version 1.1 to version 1.2 are as follows:*
+
 Added valve anode bias adjustment pots with limiting resistor and test points for easier bias setting.
+
 Added 3.5mm input and output jacks for extra flexibility.
+
 Changed valve socket footprint to fit the socket better.
+
 Changed heatsink footprint to actually fit the heatsink. The provided diagrams were not even close to reality.
+
 Changed audio input capacitors to a more suitable type. May improve sound quality, maybe not.
+
 Removed a 100nF filter capacitor. The remaining one is a token gesture.
+
 Changed output resistor to low value for better impedance matching.
 
-Changes from version 1 to version 1.1 are as follows:
+*Changes from version 1 to version 1.1 are as follows:*
 
 Capacitor silk screen orientation corrected. Used wrong symbols in the schematic and it caused the footprint to be totally random.
 
@@ -120,7 +127,9 @@ Swapped the left and right input caps to actually be on the left and right. Why 
 
 Added L and R to input jack footprint. If not using colour coded jacks you can tell the difference. If using colour coded jacks you can see which to put where.
 
-# Future revisions: DEFUNCT LEAVING IN FOR OTHERS WHO MAY WISH TO FORK
+# Future revisions:
+
+*No longer plan to do any more with this design and just move onto something new*
 
 USB-C power supply. It can be done. How complex it may be, I do not know. This needs 24v and max USB-C power is 20v? I'm not sure, but it would be a very nice additon. A nice linear regulated power supply would be best, but this is a cheap fun toy.
 
