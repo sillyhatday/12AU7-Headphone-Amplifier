@@ -97,7 +97,7 @@ I think I have accomplished what I set out to do. I had fun and created somethin
 
 ## Changelog:
 
-*Changes from version 1.1 to version 1.2 are as follows:*
+### Changes from version 1.1 to version 1.2 are as follows:
 
 Added valve anode bias adjustment pots with limiting resistor and test points for easier bias setting.
 
@@ -113,7 +113,7 @@ Removed a 100nF filter capacitor. The remaining one is a token gesture.
 
 Changed output resistor to low value for better impedance matching.
 
-*Changes from version 1 to version 1.1 are as follows:*
+## Changes from version 1 to version 1.1 are as follows:
 
 Capacitor silk screen orientation corrected. Used wrong symbols in the schematic and it caused the footprint to be totally random.
 
