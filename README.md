@@ -151,3 +151,7 @@ Is it possible to create a true balanced headphone output. I need to learn much 
  not even be possible with this design.
 
 Using of different valves from the family like a 12AX7 and 12AT7. Again my not be possible to make anything good but worth a look at.
+
+## License
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. You are able to copy and redistribute the material in any medium or format, as well as remix, transform, or build upon the material for any purpose (even commercial) - but you must give appropriate credit, provide a link to the license, and indicate if any changes were made.
