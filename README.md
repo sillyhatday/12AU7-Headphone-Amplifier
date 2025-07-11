@@ -11,14 +11,17 @@ I've designed it to use the power supply from my existing unit. The modification
 
 ## Builds
 
+
+## Me
+
 ![Bravo Amp Rep V1 2](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/0c12abed-224b-4746-88f3-91b910cedec0)
 ![WhatsApp Image 2023-11-28 at 17 54 07_dc16360e](https://github.com/sillyhatday/12AU7-Headphone-Amplifier/assets/65309612/ac1c4b83-45c0-4f2f-81c2-c8712ad9e2e9)
 
 ### Cryptoid
 
-![20250711_053313](https://github.com/user-attachments/assets/b08cb56b-e54c-4b31-9896-b62279bdccea)
-![20240820_165001](https://github.com/user-attachments/assets/131efe9d-6041-4d0f-b621-3754df010c45)
-![20241104_125324](https://github.com/user-attachments/assets/b1c8de47-2aa5-4a42-90ab-6e557dff5cfe)
+![20250711_053313smol](https://github.com/user-attachments/assets/aeb2bd66-a077-45d9-bb98-b86056c0c302)
+![20240820_165001smol](https://github.com/user-attachments/assets/bad99533-41fd-4630-80f1-ab09ea45af66)
+![20241104_125324smol](https://github.com/user-attachments/assets/46fbd654-e8c9-4a52-a1e7-ab8f9458781b)
 
 ## General Information on the original amplifier:
 
